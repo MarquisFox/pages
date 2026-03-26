@@ -1,10 +1,10 @@
 name: Deploy React App to GitHub Pages
 
 on:
-  push:
-    branches: [ main ]
+   push:
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
