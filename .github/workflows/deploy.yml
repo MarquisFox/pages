@@ -32,7 +32,7 @@ jobs:
         run: npm run lint
 
       - name: Run tests
-        run: npm test   # убедитесь, что в package.json есть скрипт test
+        run: npm test  
 
   build-and-deploy:
     name: Build and Deploy
